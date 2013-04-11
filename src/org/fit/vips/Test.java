@@ -21,14 +21,13 @@ public class Test {
 	public static void main(String args[])
 	{
 		// we've just one argument - web address of page
-//		if (args.length != 1)
-//		{
-//			System.err.println("We've just only one argument - web address of page!");
-//			System.exit(0);
-//		}
+		if (args.length != 1)
+		{
+			System.err.println("We've just only one argument - web address of page!");
+			System.exit(0);
+		}
 
-//		String url = args[0];
-		String url = "http://www.selectorgadget.com/";
+		String url = args[0];
 
 		try
 		{
