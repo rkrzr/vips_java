@@ -2,3 +2,4 @@ bin/
 vips.jar
 test.xml
 VIPSResult.xml
+.classpath
