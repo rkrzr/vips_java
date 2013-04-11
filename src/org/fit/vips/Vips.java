@@ -295,10 +295,10 @@ public class Vips {
 		endTime = System.nanoTime();
 
 		long diff = endTime - startTime;
-
-		System.out.println("Execution time of VIPS: " + diff + " ns; " +
-				(diff / 1000000.0) + " ms; " +
-				(diff / 1000000000.0) + " sec");
+		
+//		System.out.println("Execution time of VIPS: " + diff + " ns; " +
+//				(diff / 1000000.0) + " ms; " +
+//				(diff / 1000000000.0) + " sec");
 	}
 
 	/**

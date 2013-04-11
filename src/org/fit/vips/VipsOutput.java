@@ -218,9 +218,11 @@ public final class VipsOutput {
 				result = result.replaceAll("&lt;", ">");
 				result = result.replaceAll("&quot;", "\"");
 
-				FileWriter fstream = new FileWriter(_filename + ".xml");
-				fstream.write(result);
-				fstream.close();
+//				FileWriter fstream = new FileWriter(_filename + ".xml");
+//				fstream.write(result);
+//				fstream.close();
+				
+				System.out.println(result);
 			}
 		}
 		catch (Exception e)
