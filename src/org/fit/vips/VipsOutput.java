@@ -157,6 +157,7 @@ public final class VipsOutput {
 					content += elementBox.getText() + " ";
 
 				}
+				content = content.replace("\"", "'");
 				layoutNode.setAttribute("SRC", src);
 				layoutNode.setAttribute("Content", content);
 			}
@@ -216,7 +217,7 @@ public final class VipsOutput {
 
 				result = result.replaceAll("&gt;", ">");
 				result = result.replaceAll("&lt;", "<");
-				result = result.replaceAll("&quot;", "\"");
+				result = result.replaceAll("&quot;", "'");
 
 //				FileWriter fstream = new FileWriter(_filename + ".xml");
 //				fstream.write(result);

@@ -255,7 +255,7 @@ public class Vips {
 			constructor.constructVisualStructure();
 
 			// prepare tresholds for next iteration
-			if (iterationNumber <= 5 )
+			if (iterationNumber <= 5)
 			{
 				sizeTresholdHeight -= 50;
 				sizeTresholdWidth -= 50;
